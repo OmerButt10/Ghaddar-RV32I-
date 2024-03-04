@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Data_Memory/Data_Memory.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Data_Memory|Data_Memory>io_Data_Mem_output",
+    "sources":[
+      "~Data_Memory|Data_Memory>io_Data_Mem_read",
+      "~Data_Memory|Data_Memory>io_Data_Mem_address"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Data_Memory"
+  }
+]

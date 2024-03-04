@@ -1,0 +1,13 @@
+#Successful Tests
+#Mon Feb 19 17:11:03 PKT 2024
+SC.Immediate_Generation_Tester=1708343208866
+SC.Data_Memory_Tester=1703853656455
+SC.Register_File_Tester=1708343135839
+SC.Instruction_Memory_Tester=1708343190932
+SC.Control_Unit_Tester=1708343222288
+SC.TestALU=1708343691350
+SC.Program_Counter_4_Tester=1704453096500
+SC.Program_Counter_Tester=1708343157050
+SC.ALU_CU_BranchControl_Tester=1703241488373
+SC.Jalr_Tester=1708343172466
+SC.TopTest=1708344663741

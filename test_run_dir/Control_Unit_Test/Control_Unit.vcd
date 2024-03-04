@@ -1,0 +1,577 @@
+$date
+2024-02-19T11:47+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Control_Unit $end
+ $var wire 2 ! _GEN_37 $end
+ $var wire 2 " io_CU_Next_PC $end
+ $var wire 1 # _GEN_16 $end
+ $var wire 2 $ _GEN_43 $end
+ $var wire 1 % _T $end
+ $var wire 2 & _GEN_19 $end
+ $var wire 3 ' _GEN_25 $end
+ $var wire 3 ( io_CU_ALU_op $end
+ $var wire 2 ) _GEN_13 $end
+ $var wire 2 * io_CU_InA $end
+ $var wire 2 + _GEN_8 $end
+ $var wire 1 , io_CU_Branch $end
+ $var wire 3 - _GEN_42 $end
+ $var wire 3 . _GEN_51 $end
+ $var wire 1 / _GEN_39 $end
+ $var wire 7 0 io_CU_Opcode $end
+ $var wire 1 1 io_CU_MemToReg $end
+ $var wire 1 2 _GEN_24 $end
+ $var wire 1 3 _GEN_30 $end
+ $var wire 2 4 _GEN_45 $end
+ $var wire 1 5 _GEN_27 $end
+ $var wire 1 6 _GEN_48 $end
+ $var wire 3 7 _GEN_33 $end
+ $var wire 2 8 _GEN_54 $end
+ $var wire 2 9 _GEN_12 $end
+ $var wire 2 : _GEN_36 $end
+ $var wire 2 ; _GEN_21 $end
+ $var wire 3 < _GEN_18 $end
+ $var wire 1 = io_CU_RegWrite $end
+ $var wire 1 > io_CU_MemRead $end
+ $var wire 1 ? _GEN_53 $end
+ $var wire 1 @ _GEN_41 $end
+ $var wire 1 A _GEN_35 $end
+ $var wire 1 B clock $end
+ $var wire 1 C _GEN_50 $end
+ $var wire 1 D _GEN_23 $end
+ $var wire 1 E _GEN_44 $end
+ $var wire 1 F _GEN_38 $end
+ $var wire 1 G _GEN_17 $end
+ $var wire 2 H _GEN_26 $end
+ $var wire 1 I _GEN_32 $end
+ $var wire 1 J _GEN_47 $end
+ $var wire 1 K _GEN_11 $end
+ $var wire 2 L io_CU_Extend_sel $end
+ $var wire 2 M _GEN_14 $end
+ $var wire 1 N io_CU_InB $end
+ $var wire 2 O _GEN_52 $end
+ $var wire 1 P reset $end
+ $var wire 2 Q _GEN_46 $end
+ $var wire 2 R _GEN_34 $end
+ $var wire 1 S io_CU_MemWrite $end
+ $var wire 2 T _GEN_28 $end
+ $var wire 2 U _GEN_55 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0C
+b00 &
+0=
+b0000000 0
+b00 )
+0S
+0>
+b00 T
+06
+b00 *
+b000 -
+b00 "
+b00 U
+b000 .
+0#
+b00 9
+b00 $
+0N
+b000 '
+b00 :
+b000 (
+02
+b00 ;
+0P
+b00 Q
+03
+b00 4
+b00 R
+0I
+0J
+05
+b00 !
+0K
+b00 L
+b00 M
+0/
+0D
+b00 8
+0E
+b000 <
+0F
+01
+b00 O
+0G
+b00 H
+0?
+b00 +
+0@
+b000 7
+0A
+0,
+0B
+$end
+#0
+b10 Q
+b011 <
+b10 R
+1K
+b011 7
+b10 M
+1G
+12
+b10 *
+b10 H
+b10 +
+1I
+b011 -
+1C
+b011 .
+b10 &
+b011 '
+1=
+b011 (
+b10 )
+b10 !
+b10 T
+b10 "
+b10 U
+1@
+b11 9
+b10 $
+b10 O
+1P
+b10 ;
+#1
+1B
+#6
+0B
+b0000011 0
+1N
+1%
+b00 "
+11
+b00 *
+b100 (
+0P
+1>
+#11
+1B
+#16
+0B
+#21
+1B
+#26
+0B
+#31
+1B
+#36
+0B
+#41
+1B
+#46
+0B
+#51
+1B
+#56
+0B
+#61
+1B
+#66
+0B
+#71
+1B
+#76
+0B
+#81
+1B
+#86
+0B
+#91
+1B
+#96
+0B
+#101
+1B
+#106
+0B
+#111
+1B
+#116
+0B
+#121
+1B
+#126
+0B
+#131
+1B
+#136
+0B
+#141
+1B
+#146
+0B
+#151
+1B
+#156
+0B
+#161
+1B
+#166
+0B
+#171
+1B
+#176
+0B
+#181
+1B
+#186
+0B
+#191
+1B
+#196
+0B
+#201
+1B
+#206
+0B
+#211
+1B
+#216
+0B
+#221
+1B
+#226
+0B
+#231
+1B
+#236
+0B
+#241
+1B
+#246
+0B
+#251
+1B
+#256
+0B
+#261
+1B
+#266
+0B
+#271
+1B
+#276
+0B
+#281
+1B
+#286
+0B
+#291
+1B
+#296
+0B
+#301
+1B
+#306
+0B
+#311
+1B
+#316
+0B
+#321
+1B
+#326
+0B
+#331
+1B
+#336
+0B
+#341
+1B
+#346
+0B
+#351
+1B
+#356
+0B
+#361
+1B
+#366
+0B
+#371
+1B
+#376
+0B
+#381
+1B
+#386
+0B
+#391
+1B
+#396
+0B
+#401
+1B
+#406
+0B
+#411
+1B
+#416
+0B
+#421
+1B
+#426
+0B
+#431
+1B
+#436
+0B
+#441
+1B
+#446
+0B
+#451
+1B
+#456
+0B
+#461
+1B
+#466
+0B
+#471
+1B
+#476
+0B
+#481
+1B
+#486
+0B
+#491
+1B
+#496
+0B
+#501
+1B
+#506
+0B
+#511
+1B
+#516
+0B
+#521
+1B
+#526
+0B
+#531
+1B
+#536
+0B
+#541
+1B
+#546
+0B
+#551
+1B
+#556
+0B
+#561
+1B
+#566
+0B
+#571
+1B
+#576
+0B
+#581
+1B
+#586
+0B
+#591
+1B
+#596
+0B
+#601
+1B
+#606
+0B
+#611
+1B
+#616
+0B
+#621
+1B
+#626
+0B
+#631
+1B
+#636
+0B
+#641
+1B
+#646
+0B
+#651
+1B
+#656
+0B
+#661
+1B
+#666
+0B
+#671
+1B
+#676
+0B
+#681
+1B
+#686
+0B
+#691
+1B
+#696
+0B
+#701
+1B
+#706
+0B
+#711
+1B
+#716
+0B
+#721
+1B
+#726
+0B
+#731
+1B
+#736
+0B
+#741
+1B
+#746
+0B
+#751
+1B
+#756
+0B
+#761
+1B
+#766
+0B
+#771
+1B
+#776
+0B
+#781
+1B
+#786
+0B
+#791
+1B
+#796
+0B
+#801
+1B
+#806
+0B
+#811
+1B
+#816
+0B
+#821
+1B
+#826
+0B
+#831
+1B
+#836
+0B
+#841
+1B
+#846
+0B
+#851
+1B
+#856
+0B
+#861
+1B
+#866
+0B
+#871
+1B
+#876
+0B
+#881
+1B
+#886
+0B
+#891
+1B
+#896
+0B
+#901
+1B
+#906
+0B
+#911
+1B
+#916
+0B
+#921
+1B
+#926
+0B
+#931
+1B
+#936
+0B
+#941
+1B
+#946
+0B
+#951
+1B
+#956
+0B
+#961
+1B
+#966
+0B
+#971
+1B
+#976
+0B
+#981
+1B
+#986
+0B
+#991
+1B
+#996
+0B
+#1001
+1B
+#1006
+0B
+b0000000 0
+0N
+0%
+b10 "
+01
+b10 *
+b011 (
+0>
+#1011
+1B
+#1016
+0B

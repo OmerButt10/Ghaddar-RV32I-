@@ -1,0 +1,44 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SC.TestALU -- -DwriteVcd=1, Some(7687ed3e-c887-4151-af6e-815ae8899d0a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/omer/Single Cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:107:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BEQ  => io.in_A === io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:108:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BNE  => io.in_A =/= io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:109:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BLT  => io.in_A < io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:110:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BGE  => io.in_A >= io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:111:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BLTU => io.in_A <= io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:112:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BGEU => io.in_A > io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/ALU.scala:113:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    case ALU_BLTE => io.in_A <= io.in_B // Check if this is the intended behavior[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 8, 2024, 3:51:42 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,192 @@
+$date
+2023-12-29T12:40+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Data_Memory $end
+ $var wire 32 ! io_Data_Mem_data $end
+ $var wire 32 # io_Data_Mem_output $end
+ $var wire 1 % io_Data_Mem_write $end
+ $var wire 32 * io_Data_Mem_address $end
+ $var wire 1 + io_Data_Mem_read $end
+ $var wire 1 - clock $end
+ $var wire 32 1 Memory $end
+ $var wire 1 4 reset $end
+  $scope module Memory $end
+   $var wire 32 & MPORT $end
+    $scope module io_Data_Mem_output_MPORT $end
+     $var wire 10 " addr $end
+     $var wire 1 ' clk $end
+     $var wire 1 ) en $end
+     $var wire 32 , data $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 10 $ pipeline_addr_0 $end
+     $var wire 1 ( mask $end
+     $var wire 1 . valid $end
+     $var wire 10 / addr $end
+     $var wire 1 0 clk $end
+     $var wire 1 2 en $end
+     $var wire 32 3 pipeline_data_0 $end
+     $var wire 1 5 pipeline_valid_0 $end
+     $var wire 32 6 data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+04
+b00000000000000000000000000000000 &
+05
+b00000000000000000000000000000000 6
+0-
+0'
+0.
+b00000000000000000000000000000000 !
+b0000000000 /
+00
+b00000000000000000000000000000000 1
+b00000000000000000000000000000000 #
+0)
+b00000000000000000000000000000000 *
+1(
+b0000000000 "
+0+
+b00000000000000000000000000000000 ,
+b00000000000000000000000000000000 3
+02
+b0000000000 $
+$end
+#0
+14
+#1
+10
+1-
+1'
+#6
+0-
+1%
+04
+1.
+0'
+b00000000000000000000000000100000 6
+b0000100000 /
+1)
+b00000000000000000000000000100000 !
+00
+b0000100000 "
+12
+b00000000000000000000000000100000 *
+1+
+#11
+b00000000000000000000000000100000 3
+10
+1-
+15
+b00000000000000000000000000100000 #
+1'
+b0000100000 $
+b00000000000000000000000000100000 ,
+#16
+00
+0-
+0'
+#21
+10
+1-
+1'
+#26
+00
+0-
+0'
+#31
+10
+1-
+1'
+#36
+00
+0-
+0'
+#41
+10
+1-
+1'
+#46
+00
+0-
+0'
+#51
+10
+1-
+1'
+#56
+00
+0-
+0'
+#61
+10
+1-
+1'
+#66
+00
+0-
+0'
+#71
+10
+1-
+1'
+#76
+00
+0-
+0'
+#81
+10
+1-
+1'
+#86
+00
+0-
+0'
+#91
+10
+1-
+1'
+#96
+00
+0-
+0'
+#101
+10
+1-
+1'
+#106
+0-
+0%
+0.
+0'
+b00000000000000000000000000000000 6
+b0000000000 /
+0)
+b00000000000000000000000000000000 !
+00
+b0000000000 "
+b00000000000000000000000000000000 #
+02
+b00000000000000000000000000000000 *
+0+
+b00000000000000000000000000000000 ,
+#111
+b00000000000000000000000000000000 3
+10
+1-
+05
+1'
+b0000000000 $
+#116
+0-

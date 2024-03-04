@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ALU_CU_Branch_Control/CU_BranchControl.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~CU_BranchControl|CU_BranchControl>io_CU_Branch_taken",
+    "sources":[
+      "~CU_BranchControl|CU_BranchControl>io_CU_Branch",
+      "~CU_BranchControl|CU_BranchControl>io_fnct3",
+      "~CU_BranchControl|CU_BranchControl>io_CU_Branch_alu_inx",
+      "~CU_BranchControl|CU_BranchControl>io_CU_Branch_alu_iny"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ALU_CU_Branch_Control"
+  }
+]

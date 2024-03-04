@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SC.TopTest -- -DwriteVcd=1, Some(b8d1b219-1ce8-4482-83db-7b92e89db5ae), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/omer/Single Cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/omer/Single Cycle/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Top *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 19:24] : [module TOP]  Reference PC_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : PC_Mod.io.pc <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 22:25] : [module TOP]  Reference Reg_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : Reg_Mod.io.WriteData <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 21:26] : [module TOP]  Reference Jalr_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : Jalr_Mod.io.rs1 <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 21:26] : [module TOP]  Reference Jalr_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : Jalr_Mod.io.rd <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 16:25] : [module TOP]  Reference ALU_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ALU_Mod.io.CU_Branch <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[TOP.scala 20:25] : [module TOP]  Reference PC4_Mod is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : PC4_Mod.io.pc4 <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 6 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 916 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SC.TopTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Jan 5, 2024, 4:34:07 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

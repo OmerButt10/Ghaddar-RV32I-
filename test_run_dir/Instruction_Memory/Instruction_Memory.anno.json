@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Instruction_Memory/Instruction_Memory.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Instruction_Memory|Instruction_Memory>io_memory_instruction",
+    "sources":[
+      "~Instruction_Memory|Instruction_Memory>io_memory_address"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Instruction_Memory.Instruction_Memory.mem",
+    "fileName":"/home/omer/Single Cycle/Instruction-Memory.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Instruction_Memory"
+  }
+]

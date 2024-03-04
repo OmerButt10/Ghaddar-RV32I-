@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SC.TopTest -- -DwriteVcd=1, Some(d1d96fba-c89d-4380-94f7-3b137e77d182), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/omer/Single Cycle/target/scala-2.12/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/omer/Single Cycle/src/test/scala/SC/ALU.scala:36:33: method >> in class Int is deprecated (since 2.12.7): shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).[0m
+[0m[[0m[33mwarn[0m] [0m[0mCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case ALU_SRA => src_a.toInt >> ( src_b & 0x1F )[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Top[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 442 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Feb 19, 2024, 5:01:46 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

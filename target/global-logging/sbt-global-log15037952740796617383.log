@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SC.Instruction_Memory_Tester -- -DwriteVcd=1, Some(a305051b-e44f-481f-853c-38f492b06948), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/omer/Single Cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:22: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:27: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:32: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:40: not found: value Cycle[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:46: not found: value Instruction[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:58: not found: value Memory[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/main/scala/SC/Instruction-Memory.scala:17:70: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.Mem[chisel3.UInt][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m  loadMemoryFromFile(/home/omer/Single Cycle/Instruction-Memory.txt, mem)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Dec 29, 2023, 3:19:16 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

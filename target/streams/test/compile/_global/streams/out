@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/omer/Single Cycle/src/test/scala/SC/ALU.scala:36:33: method >> in class Int is deprecated (since 2.12.7): shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).[0m
+[0m[[0m[33mwarn[0m] [0m[0mCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case ALU_SRA => src_a.toInt >> ( src_b & 0x1F )[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SC.Control_Unit_Tester -- -DwriteVcd=1, Some(bba70d8d-15e0-4e31-99a6-b8f2d213bfc5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/omer/Single Cycle/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/omer/Single Cycle/src/test/scala/SC/Instruction-Memory.scala:10:14: not enough arguments for constructor Instruction_Memory: (initFile: String)SC.Instruction_Memory.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter initFile.[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Instruction_Memory()){[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Dec 26, 2023, 3:11:38 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
